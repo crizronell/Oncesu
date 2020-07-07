@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(bg-4.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition: ease-in-out 2s;
+}
+
+header {
+    display: flex;
+	width: 90%;
+	height: 10vh;
+	margin: auto;
+	align-items: center;
+    
+    
+}
+
+.logo,.main-nav{
+	display: flex;
+}
+
+.logo{
+    flex: 1;
+}
+
+.navbar{
+    
+    flex: 2;
+    
+    
+    
+}
+
+.main-nav{
+    justify-content: space-around;
+    list-style: none;
+    
+}
+
+.nav-links{
+    margin-left: 10px;
+    text-decoration: none;
+    color: yellow;
+    
+
+    
+    
+    
+    
+}
+
+
+
+
+
+.navbar-toggle {
+    position: absolute;
+    right: 12%;
+    top: 5%;
+    transform: translate(-5%, -50%);
+    cursor: pointer; 
+    color: rgba(255,255,255,0.8);
+    font-size: 24px;
+    display: none;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    display: flex;
+    width: 90%;
+    height: 10vh;
+    margin-left:5% ;
+    align-items: center;
+    bottom: 0;
+    position: fixed;
+    justify-content: space-between;
+}
+
+.jyp-logo{
+    display: block;
+    width: 110px;
+    height: 48px;
+    background: url("jyplogo.png") no-repeat;
+    background-position: center;
+}
+
+.social-media a{
+    margin-right: 20px;
+    text-shadow: 1px 1px 1px #ccc;
+    font-size: 1.5em;
+    line-height: 1;
+     
+     
+}
+
+/* For mobile devices */
+@media only screen and (max-width: 767px) {
+    body {
+      
+      background-image: url("bg-3.jpg");
+      transition:   2s linear ;
+    }
+
+    .social-media a{
+        white-space: nowrap;
+    }
+
+    .navbar-toggle{
+        display: block;
+    }
+
+    .main-nav{
+        display: none;
+    }
+
+    .active {
+        display: block;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
