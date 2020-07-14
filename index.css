@@ -113,8 +113,6 @@ footer{
     .social-media a{
         white-space: nowrap;
         margin-right: -10px;
-
-        
     }
 
     .nav-links{
@@ -127,12 +125,6 @@ footer{
         flex-direction: column;
         width: 30%;
         line-height: 65px;
-        
-         
-        
-       
-       
-        
     }
     
     .nav-links li{
@@ -143,6 +135,8 @@ footer{
     .hamburger{
         display: inline-block;
     }
+
+    
 }
 
 .nav-active{
