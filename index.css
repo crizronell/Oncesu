@@ -107,26 +107,30 @@ footer{
       
       background-image: url("bg-3.jpg");
       transition:   5s ease ;
-      overflow: hidden;
+      
     }
 
     .social-media a{
         white-space: nowrap;
+        margin-right: -10px;
+
         
     }
 
     .nav-links{
-        
         display: flex;
-        height: 92vh;
+        height: 32vh;
         top: 8vh;
         position: absolute;
-        right: 0;
+        left: 10px;
         align-items: center;
         flex-direction: column;
-        box-shadow: 0 5px 7px;      
-        width: 50%;
-        transform: translateX(100%);
+        width: 30%;
+        line-height: 65px;
+        
+         
+        
+       
        
         
     }
@@ -137,12 +141,12 @@ footer{
     
 
     .hamburger{
-        display: block;
+        display: inline-block;
     }
 }
 
 .nav-active{
-    transform: translateX(0);
+    display: block;
 }
 
 @keyframes navLinkFade{
