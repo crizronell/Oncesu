@@ -1,0 +1,38 @@
+@import "index.css";
+body{
+    background-image: linear-gradient(to right,yellow,orange,gold);
+}
+nav{
+    
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.header h1{
+    font-weight: 650;
+    letter-spacing: 1.5px;
+    font-size: 3rem;
+}
+
+.containers{
+    
+    
+    margin-left:5% ;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(70px, 100px));
+    grid-gap: 10px;
+}
+
+.containers img{
+    width: 100%;
+    
+    
+}
+
+

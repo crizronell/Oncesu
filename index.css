@@ -4,9 +4,9 @@
     box-sizing: border-box;
 }
 
-body{
+.body{
     
-    background-image: url(bg-4.jpg);
+    background-image: url(picture/bg-5.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
@@ -38,10 +38,10 @@ nav{
 
 .nav-links a{
     text-decoration: none;
-    color: white;
-    letter-spacing: 3px;
-    font-weight: bold;
-    font-size: 14px;
+    color:white;
+    font-weight: normal;
+    font-size: 16px;
+    
 }
 
 .hamburger{
@@ -72,7 +72,7 @@ footer{
     display: block;
     width: 110px;
     height: 48px;
-    background: url("jyplogo.png") no-repeat;
+    background: url("picture/jyplogo.png") no-repeat;
     background-position: center;
 }
 
@@ -103,9 +103,9 @@ footer{
 
 /* For mobile devices */
 @media only screen and (max-width: 767px) {
-    body {
+    .body{
       
-      background-image: url("bg-3.jpg");
+      background-image: url("picture/bg-2.jpg");
       transition:   5s ease ;
       
     }
@@ -120,7 +120,7 @@ footer{
         height: 32vh;
         top: 8vh;
         position: absolute;
-        left: 10px;
+        right: 0;
         align-items: center;
         flex-direction: column;
         width: 30%;
